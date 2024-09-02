@@ -6,7 +6,7 @@ const int GYRO_ZOUT_H = 0x47;
 const int PWR_MGMT_1 = 0x6B;
 
 
-int16_t gyroX;
+int16_t gyroZ;
 float yawAngle = 0.0;
 float gyroScaleFactor = 131.0;  
 unsigned long lastTime;
